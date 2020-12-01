@@ -1,0 +1,9 @@
+version: '3.5'
+services:
+    aoc2020:
+        image: php:8.0-apache
+        container_name: aoc2020
+        ports:
+        -   127.0.0.1:80:80
+        volumes:
+        - ./aoc/:/var/www/html
