@@ -9,8 +9,8 @@ class PasswordPart2 extends \Password {
     
     public function isValid(): bool {
         $firstLetter = $this->password[$this->firstIntParameter-1] === $this->letter;
-        $secondtLetter = $this->password[$this->secondIntParameter-1] === $this->letter;
-        return $firstLetter xor  $secondtLetter;  
+        $secondLetter = $this->password[$this->secondIntParameter-1] === $this->letter;
+        return $firstLetter xor $secondLetter;  
     }
 
 }
