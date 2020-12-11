@@ -54,4 +54,10 @@
 			<li><a href = "/day9/part2.php">Day 9, part 2</a></li>
 		</ul>
 	</li>
+	<li>
+		<ul>
+			<li><a href = "/day10/part1.php">Day 10, part 1</a></li>
+			<li><a href = "/day10/part2.php">Day 10, part 2</a></li>
+		</ul>
+	</li>
 </ol>
